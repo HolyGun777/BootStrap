@@ -5,42 +5,117 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
     <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <title>Document</title>
 </head>
 
 <body>
-    <h1>France </h1>
-    <div class="row jus-center bg-white">
-        <div class="bg-blue size p-10">yeaaaa</div>
-        <div class="bg-white size p-10"></div>
-        <div class="bg-red size p-10"></div>
+
+    <!-- Navbar -->
+    
+        <nav class="navbar bg-blue">
+            <div class="container-fluid">
+                <div class="col">
+                    <span class="navbar-brand mb-0 h1">Navbar</span>
+                    <div class="space-around">
+
+                        <!-- menu-deroulant -->
+
+                        <div class="nav-item dropdown">
+                          <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false">Dropdown</a>
+                          <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="index1.html">Page1</a></li>
+                            <li><a class="dropdown-item" href="index1.html">Page2</a></li>
+                            <li><a class="dropdown-item" href="index1.html">Page3</a></li>
+                            <li><hr class="dropdown-divider"></li>
+                            <li><a class="dropdown-item" href="index1.html">Separated link</a></li>
+                          </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+          </nav>
+
+          <!-- image -->
+          <div class="jus-center bg-red">
+              <img src="dragon1.jpg" alt="">
+          </div>
+              
+              <div class="row">
+                  <div class="space-around">
+                      <button type="button" class="btn btn-outline-primary">Primary</button>
+                      <button type="button" class="btn btn-outline-primary">Secondary</button>
+                  </div>
+              </div>
+  <div class="row space-around bg-green">
+      <div class="card" style="width: 18rem;">
+        <img src="dragon1.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <p class="card-text">Blablabla</p>
+        </div>
+      </div>
+      <div class="card" style="width: 18rem;">
+        <img src="dragon1.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <p class="card-text">Blablabla</p>
+        </div>
+      </div>
+      <div class="card" style="width: 18rem;">
+        <img src="dragon1.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <p class="card-text">Blablabla</p>
+        </div>
+      </div>
     </div>
-    <h1>Italy</h1>
-    <div class="row jus-center bg-white">
-        <div class="bg-green size p-10"></div>
-        <div class="bg-white size p-10"></div>
-        <div class="bg-red size p-10"></div>
-    </div>
-    <h1>Allemagne</h1>
-    <div class="row jus-center container bg-white">
-        <div class="bg-black size p-10"></div>
-        <div class="bg-red size p-10"></div>
-        <div class="bg-yellow size p-10"></div>
-    </div>
-    <h1>Japon</h1>
-    <div class="row jus-center bg-white">
-        <span class="dot"></span>
-        <div class="bg-black size p-10"></div>
-        
+    <div class="space-around bg-green">
+        <div class="card" style="width: 18rem;">
+          <img src="dragon1.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <p class="card-text">Blablabla</p>
+          </div>
+        </div>
+        <div class="card" style="width: 18rem;">
+          <img src="dragon1.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <p class="card-text">Blablabla</p>
+          </div>
+        </div>
     </div>
 
+  <!-- Formulaire -->
+    <div class="bg-blue">
+        <div class="mb-3">
+          <label for="exampleFormControlInput1" class="form-label">Email address</label>
+          <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+        </div>
+        <div class="mb-3">
+          <label for="exampleFormControlTextarea1" class="form-label">Example textarea</label>
+          <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+        </div>
+        <div class="jus-center">
+            <button type="button" class="btn btn-outline-primary">Send</button>
+        </div>
+    </div>
+    <!-- Navbar -->
+    <nav class="navbar bg-red">
+        <div class="container-fluid">
+          <a class="navbar-brand">Navbar</a>
+          <form class="d-flex" role="search">
+            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-success" type="submit">Search</button>
+          </form>
+        </div>
+      </nav>
 
 
 
 
 
-
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
 </body>
 
 </html>
+
+<!--commentaire en html-->
